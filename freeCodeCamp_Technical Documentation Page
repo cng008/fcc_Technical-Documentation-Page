@@ -1,99 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<head>
-  <meta charset="utf-8">
-  <meta name="website" content="Technical Documentation Page">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="website" content="Technical Documentation Page" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
   <title>Technical Documentation Page</title>
-<style>
-* {
-  background-color: #1c1e39;
-  color: #b5b5b5;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  line-height:1.75;
-}
-
-#navbar header {
-  font-size: 18px;
-  color: white;
-}
-
-#navbar {
-  position: fixed;
-  padding: 5px 50px 5px 5px;
-  height: 100%;
-  border-color: rgba(173, 173, 173, 0.3);
-  border-width: 1px;
-  border-style: none solid none none;
-}
-
-#navbar ul {
-  padding: 5px;
-  list-style-type: none;
-  height: 88%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-#navbar a {
-  text-decoration: none;
-  font-weight: semi-bold;
-  font-size: 15px;
-}
-
-#main-doc {
-  margin-left: 250px;
-}
-
-#main-doc header {
-  font-size: 23px;
-  color: white;
-  margin-top: 30px;
-}
-
-#main-doc a {
-  color: #7695f1;
-  font-weight: semi-bold;
-  text-decoration: none;
-}
-
-@media (max-width: 600px) {
-  .sidebar {
-    display: none;
-  }
-  #main-doc {
-    margin: 0 20px;
-  }
-}
-
-a:hover {
-  color: white;
-  animation-duration: 3s;
-  animation-name: fade-on-hover;
-}
-
-@keyframes fade-on-hover {
-  0%   {color: #d0d0d0;}
-  25%  {color: white;}
-}
-
-code {
-  font-family: monospace;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.12);
-  border-radius: 5px;
-  padding: 2px;
-  font-size: 90%;
-}
-
-h2 {
-  font-size: 15px;
-  color: white;
-  margin: 20px 0 0 0
-}
-
-</style>
 </head>
 
 <body>
